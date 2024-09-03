@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css  ">
+</head>
+<body>
+    <div class="Form.Container">
+        <h1>Student Form</h1>
+        <form>
+            <label for="fullName">Full name</label>
+            <input type="Full name" id="full name" name="full name" required>
+
+            <label for="email">email</label>
+            <input type="email" id="email" name="email"required>
+
+            <label for="dob">Date Of birth</label>
+            <input type="Date" id="dob" name="dob"required>
+
+            <label for="gender">Gender</label>
+            <select name="Gender" id="gender"></select>
+                <option value="">Select gender</option>
+                <option value="Make">Make</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Select Course</option>
+                <option value="science">Science</option>
+                <option value="commerce">Commerce</option>
+                <option value="arts">Arts</option>
+                <option value="technology">Technology</option>
+            </select>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
